@@ -1,0 +1,213 @@
+/* Standardeinstellung  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: larger;
+    background-image: url(https://images.unsplash.com/photo-1604213410393-89f141bb96b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#imgHeader {
+    width: 150px;
+    height: 150px;
+    transition: none;
+    transform: none;
+    border: 5px solid rgb(1, 1, 0);
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(202, 140, 35, 0.5);
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid rgb(1, 1, 0);
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+}
+
+.containerMainHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+    padding: 30px;
+}
+
+.imgsubpage {
+    width: 400px;
+    height: 240px;
+    border: 2px solid wheat;
+    box-shadow: 0px 0px 40px 40px rgba(3, 3, 3, 0.884);
+    transition: all 1s;
+    margin: 30px;
+}
+/* transition - transform */
+.imgMain {
+    width: 600px;
+    height: 350px;
+    margin: 10px;
+    transition: all 1s;
+    border: 5px solid rgb(1, 1, 0);
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    font-size: 60px;
+    font-variant: small-caps;
+    background-color: black;
+    color: antiquewhite;
+    margin: 30px;
+    border: 5px solid rgb(245, 222, 179);
+    box-shadow: 0px 0px 40px 40px rgba(3, 3, 3, 0.884);
+}
+ul {
+    list-style: none;
+    background-color: black;
+    border: 5px solid wheat;
+    margin: 10px;
+}
+ul a {
+    color: beige;
+    margin: 10px;
+}
+
+li {
+    margin: 5px;
+}
+
+#imgOpinion {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+}
+.containerFooter {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+    background-color: rgba(202, 140, 35, 0.5);
+    padding: 20px;
+    border: 5px solid rgb(1, 1, 0);
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 39, 1);
+    color: wheat;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin: 10% 40% 10% 40%;
+    padding: 30px;
+    border: 5px solid rgb(1, 1, 0);
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+}
+
+.containerLage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50%px;
+    width: 100%;
+    align-items: center;
+}
+/* erste Unterseite -- hier noch spezielle style elemente, später allgemein definiert */
+.boxPLage {
+    background-color: black;
+    margin: 3%;
+    padding: 10px;
+    border: 5px solid wheat;
+}
+
+#p1 {
+    display: flex;
+    align-items: flex-start;
+    font-size: large;
+    background-color: rgb(31, 14, 0);
+    color: wheat;
+}
+/* damit die p untereinander getrennt sind */
+p {
+    margin: 20px;
+}
+
+#p2 {
+    display: flex;
+    align-items: flex-start;
+    font-size: large;
+    background-color: rgb(16, 30, 1);
+    color: wheat;
+}
+
+h4 {
+    font-variant: small-caps;
+    color: antiquewhite;
+    font-size: 50px;
+    margin: 20px;
+    text-decoration: underline;
+    background-color: black;
+    border: 5px solid rgb(0, 0, 0);
+    display: inline-flex;
+    box-shadow: 0px 0px 40px 40px rgba(3, 3, 3, 0.884);
+}
+
+.containerHeadingLegion {
+    display: inline-flex;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* ab Hier Allgemein definierte Klassen für Text (nach boxPLage entschieden) */
+.boxPAllgemein {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: wheat;
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+    padding: 10px;
+}
+.boxPSpace {
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin: 3%;
+    background-color: wheat;
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.6);
+}
+
+.containerSpace {
+    display: flex;
+    align-items: flex-start;
+    margin: 50px;
+}
+.gipy-embed {
+    display: flex;
+    justify-content: space-evenly;
+}
